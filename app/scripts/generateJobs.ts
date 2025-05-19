@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
+
 const fs = require("fs");
 const path = require("path");
 
@@ -36,7 +38,7 @@ const positions: Position[] = [
   "UI/UX Designer",
 ];
 
-const companies = [
+const companies: Company[] = [
   {
     name: "TechCorp",
     logo: "https://media.licdn.com/dms/image/v2/C4E0BAQFoGfXpB-oDTQ/company-logo_200_200/company-logo_200_200/0/1631305481850?e=2147483647&v=beta&t=dv3Og_RiKhBUxJXkKYxTcggE1CnEksdrS8EzS_mnXPw",
